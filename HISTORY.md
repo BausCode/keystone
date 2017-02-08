@@ -2,6 +2,17 @@
 
 KeystoneJS is maintained by [@JedWatson](https://github.com/JedWatson) and an amazing team of contributors. All contributions are given credit here except for Jed's.
 
+## v0.3.22 / 2016-07-22
+
+* added; support for automatic SSL with Let's Encrypt, thanks [Wout Mertens](https://github.com/wmertens)
+* fixed; Date field formatting, thanks [Jared Collier](https://github.com/autoboxer)
+* fixed; Filtering for related items, thanks [Max Koryukov](https://github.com/maxkoryukov)
+- fixed; Relationship initial value loading
+
+## v0.3.21 / 2016-06-19
+
+* fixed; Issue preventing you from specifying the `pretty` option in the `locals` setting
+
 ## v0.3.20 / 2016-06-17
 
 * fixed; Boolean fields with noedit:false and hidden:true do not retain value
